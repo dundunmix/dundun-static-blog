@@ -17,6 +17,21 @@ h1 {
   margin: 0;
 }
 
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: bold;
+}
+
 button#mode-toggle {
   margin-top: 1rem;
   padding: 0.5rem 1rem;
@@ -26,6 +41,14 @@ button#mode-toggle {
 
 main {
   padding: 2rem;
+}
+
+.post {
+  background: #2c2c2c;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
 footer {
@@ -42,6 +65,14 @@ body.light {
 
 body.light header {
   background-color: #f1f1f1;
+}
+
+body.light nav a {
+  color: #333;
+}
+
+body.light .post {
+  background: #f9f9f9;
 }
 
 body.light footer {
